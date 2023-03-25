@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179d19cd6258dd64c8340ed50e640acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   isMove: 1
   onGround: 1
   timePutBrick: 0.15
@@ -32212,7 +32212,7 @@ Transform:
   - {fileID: 5724629338711328293}
   - {fileID: 6445030296080519751}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8675183210199005973
 GameObject:

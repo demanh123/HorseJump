@@ -14453,7 +14453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3420365941701417666}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.13, y: 0.15, z: 7.93}
+  m_LocalPosition: {x: 1.87, y: 0.15, z: 2.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14522,7 +14522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179d19cd6258dd64c8340ed50e640acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 8
   isMove: 1
   onGround: 1
   timePutBrick: 0.15
@@ -17280,7 +17280,7 @@ Transform:
   - {fileID: 872499694231883930}
   - {fileID: 3179383401540687391}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4181260287612451428
 GameObject:

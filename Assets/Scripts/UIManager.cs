@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     //[SerializeField] GameObject _startUI;
     [SerializeField] GameObject loseUI;
     [SerializeField] GameObject finishUI;
+    [SerializeField] GameObject PlayUI;
     [SerializeField] Text currentLevel;
     [SerializeField] Text currentLevel2;
 
@@ -64,10 +65,12 @@ public class UIManager : MonoBehaviour
     void Finish()
     {
         finishUI.SetActive(true);
+        PlayUI.SetActive(false);
     }
     void Lose()
     {
         loseUI.SetActive(true);
+        PlayUI.SetActive(false);
     }
     public void Restart()
     {
@@ -81,5 +84,17 @@ public class UIManager : MonoBehaviour
     public void StartGame()
     {
         isPlay = true;
+    }
+    public void Pause()
+    {
+        Time.timeScale = 0;
+    }
+    public void Continue()
+    {
+        Time.timeScale = 1;
+    }
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

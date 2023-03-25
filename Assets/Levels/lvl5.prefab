@@ -11511,7 +11511,7 @@ Transform:
   - {fileID: 8378916590924795653}
   - {fileID: 5755352437118001851}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2913709561793614952
 GameObject:
@@ -34515,7 +34515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179d19cd6258dd64c8340ed50e640acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 6
   isMove: 1
   onGround: 1
   timePutBrick: 0.15

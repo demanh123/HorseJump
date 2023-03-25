@@ -4088,7 +4088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179d19cd6258dd64c8340ed50e640acb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 5
   isMove: 1
   onGround: 1
   timePutBrick: 0.15

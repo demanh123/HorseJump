@@ -40,10 +40,6 @@ public class OpponentHorseMove : MonoBehaviour
             onGround = true;
             //transform.position = new Vector3(transform.position.x, 0.2f, transform.position.z);
         }
-        /*if (collision.collider.tag == "water")
-        {
-            onGround = false;
-        }*/
     }
     private void OnTriggerEnter(Collider other)
     {
